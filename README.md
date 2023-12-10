@@ -1,4 +1,22 @@
-# React + TypeScript + Vite
+# Tauri app using Vite with TypeScript
+
+Just a app to learn how to build desktop multiplatform apps with Tauri with Vite, react, TypeScript, tailwindcss, shadcn ui and so on...
+
+![TauriApp](Screenshot%202023-12-10%20150516.png)
+
+At this point a just install:
+
+- TailwindCss
+- Shadcn components UI
+- sys_info (rust pkg)
+- prettier stuff for sorting tailwindcss classes
+
+Tested
+
+- Opening external programs
+- Adding ui libs
+- Adding custom styles
+- Executing system cmds
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -17,12 +35,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
